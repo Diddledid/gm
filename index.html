@@ -181,6 +181,7 @@
       </div>
 
       <script>
+          alert("Before you do anything, make sure to read my announcements on the main website. This is a Code red emergency")
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
                 navigator.serviceWorker.register('/offline-worker.js').then(function(registration) {
